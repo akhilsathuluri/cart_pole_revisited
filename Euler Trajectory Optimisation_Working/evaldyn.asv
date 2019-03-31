@@ -1,0 +1,6 @@
+%% Does function evaluation given state values
+% s containts (x1, x2, x3, x4, u) of that particular instant
+function [x]=evaldyn(s)
+x(1) = s(3);
+x = [x0,reshape(s(N+1:end),n,N)];
+end
